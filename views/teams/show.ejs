@@ -3,6 +3,9 @@
 	  <a href="/teams/<%= team.name %>"><%= team.name %></a>
 	</h2>
 	<p>
-	  <%= team.members %>
+	  <h4><%= team.body %></h4>
+	  <br>
+	  <a href="/teams/edit/<%= team.name %>" class="btn btn-default">Edit</a>
+	  <a href="/teams/delete/<%= team.name %>" class="btn btn-default delete-button">Delete</a>
 	</p>
 </div>

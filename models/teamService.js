@@ -22,6 +22,7 @@ function deleteTeam(teamName) {
   for (var i = 0; i < teams.length; i++) {
     if (teams[i].name === teamName) {
       index = i;
+      break;
     }
   }
 
